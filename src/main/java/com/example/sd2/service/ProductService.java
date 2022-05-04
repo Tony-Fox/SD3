@@ -54,6 +54,7 @@ public class ProductService {
 				productDTO.getCategory(),
 				productDTO.getPrice(),
 				restaurantService.findById(productDTO.getRestaurantId())
+				
 		);
 	}
 

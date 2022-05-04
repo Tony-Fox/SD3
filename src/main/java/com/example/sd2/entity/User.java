@@ -52,4 +52,11 @@ public class User {
 	}
 
 
+	public String userAuthority() {
+		if (isAdmin()) {
+			return "admin";
+		}
+		else return "user";
+	}
+
 }

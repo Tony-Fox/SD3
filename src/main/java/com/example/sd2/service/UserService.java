@@ -15,7 +15,7 @@ import java.util.Objects;
 @Service
 public class UserService {
 
-	BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+	public static BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
 
 
