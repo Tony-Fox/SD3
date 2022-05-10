@@ -49,4 +49,9 @@ public class ProductDTO {
 
 	public Long getRestaurantId() { return restaurantId; }
 
+	@Override
+	public String toString() {
+		return name;
+	}
+
 }

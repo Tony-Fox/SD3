@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+com.example.sd2.service.ProductService.log.1
+
+com.example.sd2.service.ProductService.log.2
